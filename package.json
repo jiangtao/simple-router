@@ -6,5 +6,9 @@
   "dependencies": {
     "ikoa-static": "0.0.6",
     "koa": "^2.4.1"
+  },
+  "scripts": {
+    "hash": "RUN_ENV=hash node server",
+    "history": "RUN_ENV=history node server"
   }
 }
